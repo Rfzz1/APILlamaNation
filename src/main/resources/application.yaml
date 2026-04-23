@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: llamanation
+
+  datasource:
+    url: jdbc:postgresql://db.agbefgsksgzkzeecdyce.supabase.co:5432/postgres?sslmode=require
+    username: postgres
+    password: mr+3aATWcR-22tf
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
