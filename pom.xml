@@ -59,6 +59,12 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+	 <dependency>
+	  <groupId>org.apache.servicemix.bundles</groupId>
+	  <artifactId>org.apache.servicemix.bundles.spring-security-crypto</artifactId>
+	  <version>6.2.7_3</version>
+	  <type>bundle</type>
+	 </dependency>
 	</dependencies>
 
 	<build>
